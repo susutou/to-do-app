@@ -19,6 +19,8 @@
 		0A4E205B17B16629002BBE39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4E204317B16629002BBE39 /* UIKit.framework */; };
 		0A4E206317B16629002BBE39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A4E206117B16629002BBE39 /* InfoPlist.strings */; };
 		0A4E206517B16629002BBE39 /* to_do_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E206417B16629002BBE39 /* to_do_appTests.m */; };
+		0A4E207417B17878002BBE39 /* ToDoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E207217B17878002BBE39 /* ToDoTableViewController.m */; };
+		0A4E207517B17878002BBE39 /* ToDoTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A4E207317B17878002BBE39 /* ToDoTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		0A4E206017B16629002BBE39 /* to-do-appTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "to-do-appTests-Info.plist"; sourceTree = "<group>"; };
 		0A4E206217B16629002BBE39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0A4E206417B16629002BBE39 /* to_do_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = to_do_appTests.m; sourceTree = "<group>"; };
+		0A4E207117B17878002BBE39 /* ToDoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoTableViewController.h; sourceTree = "<group>"; };
+		0A4E207217B17878002BBE39 /* ToDoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoTableViewController.m; sourceTree = "<group>"; };
+		0A4E207317B17878002BBE39 /* ToDoTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToDoTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				0A4E204F17B16629002BBE39 /* AppDelegate.m */,
 				0A4E205117B16629002BBE39 /* Images.xcassets */,
 				0A4E204617B16629002BBE39 /* Supporting Files */,
+				0A4E207117B17878002BBE39 /* ToDoTableViewController.h */,
+				0A4E207217B17878002BBE39 /* ToDoTableViewController.m */,
+				0A4E207317B17878002BBE39 /* ToDoTableViewController.xib */,
 			);
 			path = "to-do-app";
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A4E204A17B16629002BBE39 /* InfoPlist.strings in Resources */,
+				0A4E207517B17878002BBE39 /* ToDoTableViewController.xib in Resources */,
 				0A4E205217B16629002BBE39 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4E207417B17878002BBE39 /* ToDoTableViewController.m in Sources */,
 				0A4E205017B16629002BBE39 /* AppDelegate.m in Sources */,
 				0A4E204C17B16629002BBE39 /* main.m in Sources */,
 			);
